@@ -1,0 +1,19 @@
+{
+  "name": "saintly",
+  "version": "1.0.0",
+  "description": "archive",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irakoze-Hortance/saints.git"
+  },
+  "author": "Hortance Irakoze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Irakoze-Hortance/saints/issues"
+  },
+  "homepage": "https://github.com/Irakoze-Hortance/saints#readme"
+}
