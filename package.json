@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Irakoze-Hortance/saints/issues"
   },
-  "homepage": "https://github.com/Irakoze-Hortance/saints#readme"
+  "homepage": "https://github.com/Irakoze-Hortance/saints#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12"
+  }
 }
