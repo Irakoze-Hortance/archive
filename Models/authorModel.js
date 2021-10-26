@@ -20,7 +20,13 @@ const Author=new Schema({
     password:{
         type: String,
         required:true,
-    }
+    },
+    roles:[
+        {
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"Role"
+        }
+    ]
 })
 
 function validateAuthor(Author){
