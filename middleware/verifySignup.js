@@ -50,7 +50,7 @@ checkDuplicatePostIdOrEmail=(req,res,next)=>{
       };
       
       const verifySignUp = {
-        checkDuplicateUsernameOrEmail,
+        checkDuplicatePostIdOrEmail,
         checkRolesExisted
       };
       
