@@ -1,8 +1,8 @@
 const jwt=require("jsonwebtoken");
 const config=require("../config/authConfig");
 const db=require("../Models")
-const Author=db.Author;
-const Role=db.Role;
+const Author=db.author;
+const Role=db.role;
 
 verifyToken=(req,res,next)=>{
     let token=req.headers["x-access-token"];
