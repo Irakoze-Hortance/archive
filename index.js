@@ -2,7 +2,7 @@ const express=require('express');
 const bodyParser=require('body-parser');
 const cors=require('cors')
 
-require('./DB/db')
+require('./config/db')
 const app=express()
 const port=8000
 // const flightRouter=require('./routes/flightRoute')
