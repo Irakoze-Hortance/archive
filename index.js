@@ -21,7 +21,7 @@ const db = require("./Models");
 const Role = db.role;
 
 db.mongoose
-  .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+  .connect(`mongodb+srv://hortance:hortance@cluster0.0pkui.mongodb.net/saintly?retryWrites=true&w=majority"`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
@@ -44,7 +44,7 @@ require("./Routes/authRoutes")(app);
 require("./Routes/authorRoutes")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

@@ -91,7 +91,7 @@ exports.signin=(req,res)=>{
         res.status(200).send({
             id:author.post_id,
             name:author.name,
-            email:author.emai,
+            email:author.email,
             roles:authorities,
             accessToken:token
         })
